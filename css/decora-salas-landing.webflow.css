@@ -2491,6 +2491,9 @@ figcaption {
 .button-3.is-contact {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
+  background-color: var(--base-color-brand--primary);
+  box-shadow: -4px 4px 0 0 var(--base-color-brand--primary);
+  color: var(--base-color-brand--secundary);
   cursor: pointer;
   border-color: #adecfb;
   transition: transform .2s, box-shadow .3s;
@@ -2500,13 +2503,13 @@ figcaption {
 .button-3.is-contact:hover {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
+  background-color: var(--base-color-brand--primary);
   color: #fff;
-  background-color: #054b5c;
   border-color: #054b5c;
 }
 
 .text-block-4 {
-  color: #fff;
+  color: var(--base-color-brand--secundary);
   cursor: pointer;
   font-family: Oswald, sans-serif;
   font-size: 1rem;
@@ -2515,7 +2518,7 @@ figcaption {
 }
 
 .text-block-4:hover {
-  color: #fff;
+  color: var(--base-color-brand--secundary);
   font-weight: 700;
 }
 
