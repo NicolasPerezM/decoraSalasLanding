@@ -3530,7 +3530,7 @@ figcaption {
   }
 
   .button {
-    background-color: var(--base-color-brand--white);
+    background-color: var(--base-color-brand--primary);
     color: var(--base-color-brand--secundary);
   }
 
