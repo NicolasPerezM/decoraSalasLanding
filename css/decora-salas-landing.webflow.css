@@ -19,6 +19,7 @@
   --text-color--text-success: var(--base-color-system--success-green);
   --background-color--background-error: var(--base-color-system--error-red-light);
   --text-color--text-error: var(--base-color-system--error-red);
+  --29d2a3: white;
   --base-color-brand--black: black;
   --base-color-neutral--neutral-lightest: #eee;
   --base-color-neutral--neutral-lighter: #ccc;
@@ -34,7 +35,6 @@
   --border-color--border-secondary: var(--base-color-neutral--neutral-light);
   --border-color--border-alternate: var(--base-color-neutral--white);
   --link-color--link-secondary: var(--base-color-neutral--neutral-light);
-  --29d2a3: white;
 }
 
 .w-layout-grid {
